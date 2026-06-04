@@ -12,3 +12,4 @@ class Solution:
                 min_prefix = prefix_sum
                 
         return max_prefix - min_prefix
+    
