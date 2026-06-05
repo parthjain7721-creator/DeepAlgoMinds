@@ -26,3 +26,4 @@ class FindSumPairs:
                 pair_count += self.nums2_counts[target]
                 
         return pair_count
+    
