@@ -8,7 +8,7 @@ class Solution:
         ans = 0
         
         while low <= high:
-            mid = (low + high) // 2
+            mid = low + (high-low) // 2
             square = mid * mid
             
             if square == x:
