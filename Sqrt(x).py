@@ -4,8 +4,7 @@ class Solution:
             return x
             
         low = 1
-        high = x // 2  
-        x // 2
+        high = x // 2 
         ans = 0
         
         while low <= high:
