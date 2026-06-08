@@ -3,7 +3,7 @@ class Solution:
         if n == 1:
             return True
         
-        for i in range(1,n):
+        for i in range(31):
             if 2**i ==n:
                 return True
 
